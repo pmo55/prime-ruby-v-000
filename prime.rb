@@ -5,4 +5,3 @@ is_prime = true
       is_prime = false
     end
   end
-end
