@@ -8,4 +8,5 @@ while int >= i
     end
     i+=1
   end
+  is_prime
 end
