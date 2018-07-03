@@ -1,12 +1,10 @@
 # Add  code here!
-def prime?(int)
-is_prime = true
-i=1
-while int >= i 
-    if int % i == 0
-      is_prime = false
-       i+=1
+def prime?(ineger)
+  return false if integer < 2
+    (2..integer - 1).each do |x|
+        if (integer % x) == 0
+            return false
+        end
     end
-  end
-  is_prime
+    true
 end
