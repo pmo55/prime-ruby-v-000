@@ -1,10 +1,9 @@
 # Add  code here!
 def prime?(int)
-counter=2
-if int % counter ==0
-  false
-  counter +=1 
-else true
-
-end
+is_prime = true
+  for i in 2..n-1
+    if n % i == 0
+      is_prime = false
+    end
+  end
 end
