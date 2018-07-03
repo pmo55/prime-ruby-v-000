@@ -4,8 +4,9 @@ counter=1
 while counter <= int
 if int % counter ==0
   false
+  counter +=1 
 else true
-counter+=1
+
 end
 end
 end
