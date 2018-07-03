@@ -7,5 +7,5 @@ if int % counter ==0
 else return true
 
 end
-
+end
 end
