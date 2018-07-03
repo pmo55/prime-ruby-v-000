@@ -5,8 +5,8 @@ i=1
 while int >= i 
     if int % i == 0
       is_prime = false
+       i+=1
     end
-    i+=1
   end
   is_prime
 end
