@@ -1,11 +1,11 @@
 # Add  code here!
 def prime?(int)
-def is_prime(x):
-    if x < 2:
-        return False
-    else:
-        for n in range(2,x):
-            if x % n == 0:
-               return False
-        return True
-end  
+counter=1
+while counter <= int
+if int % counter ==0
+  return false
+else return true
+
+end
+
+end
